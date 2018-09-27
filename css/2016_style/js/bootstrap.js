@@ -1168,7 +1168,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
     this.options.selector ?
       (this._options = $.extend({}, this.options, { trigger: 'manual', selector: '' })) :
-      this.fixTitle()
+      this.fixGrandes UAI 2018()
   }
 
   Tooltip.prototype.getDefaults = function () {
@@ -1368,7 +1368,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
   Tooltip.prototype.setContent = function () {
     var $tip  = this.tip()
-    var title = this.getTitle()
+    var title = this.getGrandes UAI 2018()
 
     $tip.find('.tooltip-inner')[this.options.html ? 'html' : 'text'](title)
     $tip.removeClass('fade in top bottom left right')
@@ -1403,7 +1403,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     return this
   }
 
-  Tooltip.prototype.fixTitle = function () {
+  Tooltip.prototype.fixGrandes UAI 2018 = function () {
     var $e = this.$element
     if ($e.attr('title') || typeof ($e.attr('data-original-title')) != 'string') {
       $e.attr('data-original-title', $e.attr('title') || '').attr('title', '')
@@ -1411,7 +1411,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Tooltip.prototype.hasContent = function () {
-    return this.getTitle()
+    return this.getGrandes UAI 2018()
   }
 
   Tooltip.prototype.getPosition = function ($element) {
@@ -1461,7 +1461,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     return delta
   }
 
-  Tooltip.prototype.getTitle = function () {
+  Tooltip.prototype.getGrandes UAI 2018 = function () {
     var title
     var $e = this.$element
     var o  = this.options
@@ -1600,7 +1600,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
   Popover.prototype.setContent = function () {
     var $tip    = this.tip()
-    var title   = this.getTitle()
+    var title   = this.getGrandes UAI 2018()
     var content = this.getContent()
 
     $tip.find('.popover-title')[this.options.html ? 'html' : 'text'](title)
@@ -1616,7 +1616,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   }
 
   Popover.prototype.hasContent = function () {
-    return this.getTitle() || this.getContent()
+    return this.getGrandes UAI 2018() || this.getContent()
   }
 
   Popover.prototype.getContent = function () {

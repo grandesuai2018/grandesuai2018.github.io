@@ -17,10 +17,10 @@
   link: /2016/team
 
 - inverted: timeline-inverted
-  img: icon-venue.jpeg
+  img: icon-lieux.jpeg
   name: Venue
   info: Learn more about our location
-  link: /2016/venue
+  link: /2016/lieux
 
 - inverted: 
   img: icon-faq.jpeg

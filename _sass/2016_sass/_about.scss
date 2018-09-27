@@ -1,10 +1,8 @@
 .about {
-    padding: 5%;
+    padding: 2%;
     margin: 30px 15vw 30px 15vw;
 
-    img {
-        max-width: 500px;
-    }
+
     h1 {
         text-shadow: 2px 2px black;
         background-color: #ff805b;
@@ -23,13 +21,13 @@
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);       
     }
     h2.first {
-         width: 190px;
+         width: 380px;
     }
     h2.second {
-         width: 170px;
+         width: 340px;
     }
     h2.third {
-         width: 150px;
+         width: 300px;
     }
 }
 

@@ -1,0 +1,91 @@
+<section id="publications">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Publications</h2>
+                <h3 class="section-subheading text-muted">Retrouvez l'intégralité des publications interne à l'événement sur notre <a href="https://www.facebook.com/pg/GUAI2K18/posts/">Page Facebook</a></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+               
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="left">
+                            <ul class="contents">
+                            {% for posts_data in site.data.twenty_17.posts %}
+                            {% if posts_data.colonne %}
+
+
+<li>
+<a href="{{posts_data.link}}" class="img">
+<img alt="VIDEO. "{{posts_data.title}}" class="b-lazy b-loaded" src="css/2017_style/img/publications/{{posts_data.img}}" width="133" height="50">
+</a>
+
+<a href="{{posts_data.link}}" class="title">
+{{posts_data.title}}
+</a>
+</li>
+
+
+
+
+                            <div class="control-group form-group">
+                                <a href="" class="portfolio-link" data-toggle="modal">
+                                    <img src="" class="img-responsive img-centered" alt="">
+                                </a>
+                                <p class="text-muted"></p>
+                            
+                    
+                            </div>
+                              {% else %}
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="left">
+                            <ul class="contents">
+                            {% for posts_data in site.data.twenty_17.posts %}
+                            {% if posts_data.colonne %}
+                            {% else %}
+
+                            <li>
+                            <a href="{{posts_data.link}}" class="img">
+                            <img alt="VIDEO. "{{posts_data.title}}" class="b-lazy b-loaded" src="css/2017_style/img/publications/{{posts_data.img}}" width="133" height="50">
+                            </a>
+
+                            <a href="{{posts_data.link}}" class="title">
+                            {{posts_data.title}}
+                            </a>
+                            </li>
+
+
+
+
+                            <div class="control-group form-group">
+                                <a href="" class="portfolio-link" data-toggle="modal">
+                                    <img src="" class="img-responsive img-centered" alt="">
+                                </a>
+                                <p class="text-muted"></p>
+                            
+                    
+                            </div>
+                              
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <a href="https://www.facebook.com/pg/GUAI2K18/posts/"><button type="submit" value="Send" class="btn btn-xl">Voir la page Facebook</button></a>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</section>

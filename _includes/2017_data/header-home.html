@@ -1,5 +1,5 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -9,7 +9,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="/"><img src="../css/2017_style/img/logo-small-transparent.png" style="margin-top:-15px" width="150px" alt="icon-about"></a>
+
+                <a class="navbar-brand page-scroll" href="{{site.baseurl}}"><img src="css/2017_style/img/logo-small-transparent.png" style="margin-top:-15px" width="150px" alt="icon-about"></a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,14 +21,24 @@
                         <a href="/"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#speakers">Speakers</a>
+                        <a class="page-scroll" href="#speakers">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Infos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#publications">Publications</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="https://www.facebook.com/pg/GUAI2K18/photos/">Photos</a>
+                    </li>
+
+
+                    {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+                    {% endfor %}
+                
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -6,6 +6,7 @@
   alt: Picture of TBD
   topic: Topic
   description: More Info
+  home: oui
 
 - title: Name
   name: Name-2
@@ -15,6 +16,7 @@
   alt: Picture of TBD
   topic: Topic
   description: More Info
+  home: oui
 
 - title: Name
   name: Name-3
@@ -24,3 +26,14 @@
   alt: Picture of TBD
   topic: Topic
   description: More Info
+  home: oui
+
+- title: Jack
+  name: Name-3
+  subtitle: Position
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  topic: Topic
+  description: More Info
+  home: non

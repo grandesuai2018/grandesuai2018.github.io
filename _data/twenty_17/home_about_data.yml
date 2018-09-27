@@ -1,35 +1,35 @@
 - inverted: 
   img: icon-about.jpeg
-  name: Theme, Vision, Mission
-  info: Read more about our Theme, Vision, and Mission
+  name: A propos
+  info: Présentation de l'évènement, Informations sponsors
   link: /about
 
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
-  name: Agenda
-  info: Check out the agenda
+  name: Le Programme
+  info: Consultez l'agenda
   link: /agenda
 
 - inverted: 
   img: icon-team.jpeg
-  name: Team
-  info: Find out the team members
-  link: /team
+  name: Sécurité
+  info: Quelques rappels
+  link: /securite
 
 - inverted: timeline-inverted
-  img: icon-venue.jpeg
-  name: Venue
-  info: Learn more about our location
-  link: /venue
+  img: icon-lieux.jpeg
+  name: Lieux
+  info: La carte des gymnases
+  link: /lieux
 
 - inverted: 
   img: icon-faq.jpeg
-  name: FAQs
-  info: Have a Question? Many answers can be found right here in our FAQs
+  name: Questions pratiques
+  info: Restaurations, Logements et Douches
   link: /faqs
 
 - inverted: timeline-inverted
   img: booklet-icon.png
-  name: Event Booklet
-  info: View or Download our event booklet
+  name: Règlement Sportif
+  info: Lire le règlement
   link: /booklet

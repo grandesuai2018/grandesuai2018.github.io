@@ -1,8 +1,8 @@
 title: "Grandes UAI 2018"
 description: > # this means to ignore newlines until "baseurl:"
   Grandes UAI is a sport championship of 250K€ budget gathering 1200 ENSAM students from May the 10th to the 13th in Chalons-en-Champagne.
-baseurl: "/grandesuai2018.github.io" # the subpath of your site, e.g. /blog
-url: "https://gaspard-bourgeois.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://grandesuai2018.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 

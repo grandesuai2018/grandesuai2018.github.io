@@ -1,0 +1,27 @@
+---
+layout: 2017_default
+permalink: /team
+title: Team
+publish: true
+---
+  <!--background color-->
+  <script type="text/javascript">
+      document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+  </script>
+
+  <!-- this section wraps the team members as a container-->
+  <section class="cf team-container team-container-top black-frame">
+    <h1 class="team-h1">Team</h1>
+  
+    {% for team in site.data.twenty_17.teams %}
+    <div class="team-member">
+      <a class="email" href="{{ team.link }}">
+      <img class="team-photo" src="css/2017_style/img/team/{{ team.img }}" alt="Picture of {{ team.img }}">
+    </a>
+      <!-- https://s.gravatar.com/avatar/0000000000000000?s=160 for Gravatar-->
+      <h3>{{ team.title }}</h3>
+      <span>{{ team.subtitle }}</span>
+       <a class="email" href="{{ team.link }}"><span >Linked IN</span></a>
+    </div> 
+    {% endfor %}
+  </section>

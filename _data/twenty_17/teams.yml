@@ -1,39 +1,83 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Omar Zouaoui
+  link: "https://www.linkedin.com/in/omar-zouaoui-03b58077/"
+  subtitle: Président
+  img: omar_zouaoui.jpg
   home: oui
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Pierre-Baptiste Dupire
+  link: https://www.linkedin.com/in/pb-dupire/
+  subtitle: Responsable Communication
+  img: pierre-baptiste_dupire.jpg
   home: oui
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Gaspard Bourgeois
+  link: https://www.linkedin.com/in/gaspard-bourgeois-89559a12b/
+  subtitle: Responsable Goodies/Site Web
+  img: gaspard_bourgeois.jpg
   home: oui
 
-- title: Jack
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- title: Valentin Champion
+  link: https://www.linkedin.com/in/valentin-champion/
+  subtitle: Trésorier
+  img: valentin_champion.jpg
+  home: non
+
+- title: William Grison
+  link: https://www.linkedin.com/in/william-grison-b04904133/
+  subtitle: Responsable Transport
+  img: william_grison.jpg
+  home: non
+
+- title: Valentin Stéphan
+  link: https://www.linkedin.com/in/valentin-st%C3%A9phan-a67a69154/
+  subtitle: Responsable Sport
+  img: valentin_stephan.jpg
+  home: non
+
+- title: Thomas Cazin
+  link: https://www.linkedin.com/in/thomas-cazin-aa0806155/
+  subtitle: Responsable Electricité
+  img: thomas_cazin.jpg
+  home: non
+
+- title: Alexis Arslan
+  link: https://www.linkedin.com/in/alexis-arslan/
+  subtitle: Responsable E-sport
+  img: alexis_arslan.jpg
+  home: non
+
+- title: Tarek Abdelhedi
+  link: https://www.linkedin.com/in/tarek-abdelhedi-791973a8/
+  subtitle: Responsable Restauration
+  img: tarek_abdelhedi.jpg
+  home: non
+
+- title: Morgane Ruelle
+  link: https://www.linkedin.com/in/morgane-ruelle-71b763153/
+  subtitle: Responsable Partenariats
+  img: morgane_ruelle.jpg
+  home: non
+
+- title: Zaccari Chibane
+  link: https://www.linkedin.com/in/zaccari-chibane/
+  subtitle: Responsable Animation Soirée
+  img: zaccari_chibane.jpg
+  home: non
+
+- title: Romain Tartarat
+  link: https://www.linkedin.com/in/tartarat-romain-052570b6/
+  subtitle: Responsable Hébergement
+  img: romain_tartarat.jpg
+  home: non
+
+- title: Valentin Hurel
+  link: https://www.linkedin.com/in/valentin-hurel-83944510b/
+  subtitle: Responsable Animation Journée
+  img: valentin_hurel.jpg
+  home: non
+
+- title: Quentin Thibonnet
+  link: https://www.facebook.com/quentin.thibonnet
+  subtitle: Responsable Sport
+  img: quentin_thibonnet.jpg
   home: non

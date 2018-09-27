@@ -12,7 +12,7 @@ logo: "css/2017_style/img/logo.png"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2017_pages']
+include: ['_2016_pages','_2017_pages']
 
 plugins:
   - jekyll-sitemap
@@ -23,7 +23,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/GUAI2K18/
   - title: github
-    url: https://github.com/Gaspard-Bourgeois/grandesuai2018.github.io
+    url: https://github.com/grandesuai2018/grandesuai2018.github.io
 
 # Build settings
 markdown: kramdown

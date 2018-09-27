@@ -12,7 +12,7 @@ logo: "css/2017_style/img/logo.png"
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2016_pages','_2017_pages']
+include: ['_2017_pages']
 
 plugins:
   - jekyll-sitemap
